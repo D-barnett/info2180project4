@@ -1,0 +1,28 @@
+body{
+	background-image: url("mail-background22.jpg");
+	/*background-position: center; 
+	background-attachment: fixed; */
+	background-repeat: no-repeat;
+}  
+
+h1{
+	font-family: verdana;
+	text-align: center;
+}
+
+#menu-options{
+	float: right;
+}
+
+.options:hover{
+	border-color: #00ff00;
+}
+
+img{
+	width:800px;
+	height:500px;
+}
+
+div{
+	text-align:center;
+}

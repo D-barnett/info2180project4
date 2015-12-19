@@ -1,0 +1,25 @@
+body {
+  font-size: 13px;
+  font-family:Tahoma;
+  	background-image: url("mail-background22.jpg");
+  	background-repeat: no-repeat;
+  	text-align:center;
+}
+
+.container {
+  margin: 80px auto;
+  width: 640px;
+}
+
+.login {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 310px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+input{
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+}

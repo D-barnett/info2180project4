@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	<link rel="stylesheet" href="comosemail.css">
+ </head>
+
+ <div id="overall">
+
+  <body>
+	 <div id="header"> 
+	   <img src="compose.png"><h3>compose mail</h3>
+	 </div>
+
+	 <div id="options">
+	  <button type="button" class="tasks">Send</button>
+	  <button type="button" class="tasks"  onclick="window.location.href='mainscreen.html'">Cancel</button>
+     </div>	
+
+	 <div id="messagecomp">
+		<label for="recipient">To:</label>
+		<br>
+		<label for="subject">Subject:</label>
+		<br>
+		<label for="message">Body:</label>
+	 </div>
+     
+	    <form action="" method="post">	
+ 
+	    <input type="text" name="recipient" id="recipient" size="50px"/>
+        <br>
+
+	    <a href="">Add Cc</a>
+	    <br>
+
+	    <input type="text" name="subject" id="subject" size="50px"/>
+        <br><br>
+
+	    <textarea name="message" id="message" rows="17" cols="38"></textarea>
+        <br><br>
+
+	    </form>
+   </body>
+  </div>
+</html>
